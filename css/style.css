@@ -1,0 +1,158 @@
+body {
+  font-family: 'Muli', sans-serif;
+  position: relative;
+}
+
+
+a {
+  color: #fff;
+}
+
+a:focus, a:hover {
+    color: #FFbd4a;
+    text-decoration: none;
+}
+
+.container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-default .navbar-brand {
+  color: #FFbd4a;
+}
+
+.jumbotron {
+  background-image: url("../img/header4.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100%;
+  padding-bottom: 315px;
+}
+.jumbotron .container {
+  padding: 50px 15px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+
+
+
+/*features*/
+
+.marketing .col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.fa-4x {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #FFbd4a;
+}
+
+
+
+
+/*portfolio*/
+img {
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    margin-bottom:20px;
+}
+
+img:hover {
+  filter: none; /* IE6-9 */
+  -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+
+.col-lg-12 {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.section-heading {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+
+
+
+/*footer*/
+footer {
+background: #222;
+}
+footer .copyright-section {
+background: #111;
+padding: 30px 0;
+}
+/*footer .copyright-section .logo {
+max-width: 300px;
+margin: 0 auto;
+}*/
+footer .copyright-section .social-media {
+margin-top: 40px;
+font-size: 25px;
+}
+footer .copyright-section .social-media ul {
+text-align: center;
+}
+footer .copyright-section .copyright {
+margin-top: 30px;
+}
+footer .copyright-section .copyright p {
+text-align: center;
+color: #666;
+}
+footer .demo-logo{
+margin: 0;
+padding: 0;
+text-align: center;
+font-size: 36px;
+text-transform: uppercase;
+color: #999;
+}
+
+
+
+.fa-twitter {
+    color: #55acee;
+}
+
+.fa-linkedin {
+    color: #007bb5;
+}
+
+.fa-github-alt {
+    color: #79e79b;
+}
+
+.fa {
+    opacity: 0.7;
+    transition: 1s;
+    -webkit-transition: 1s;
+}
+
+.fa:hover{
+    opacity: 1;
+    transition: 1s;
+    -webkit-transition: 1s;
+
+
+
+
+/*mediaqueries*/
+/*@media screen and (min-width: 768px)
+.jumbotron {
+  padding-top: 48px;
+  padding-bottom: 316px;
+}*/
