@@ -1,0 +1,25 @@
+
+
+
+.page-wrap {
+  width: 1000px;
+  margin: 80px auto;
+  padding: 50px;
+  background: #F8B100;
+}
+
+.featurette-container {
+  background: #fff;
+  width: 1000px;
+  margin: 80px auto;
+  padding: 50px;
+}
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
