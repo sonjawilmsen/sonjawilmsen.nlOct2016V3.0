@@ -9,6 +9,15 @@
   background: #F8B100;
 }
 
+a {
+    color: #000 !important;
+    text-decoration: none;
+}
+
+.test {
+  display: none;
+}
+
 .container .row {
   margin-bottom: 0;
   margin-top: 0;
@@ -37,6 +46,15 @@
   padding: 150px 0;
 }
 
+footer {
+  margin-top: 40px;
+  background: #F8B100;
+}
+
+.footersection h1 {
+  text-align: center;
+  padding: 70px 0;
+}
 
 @media (max-width: 800px) {
 .featurette-container {
